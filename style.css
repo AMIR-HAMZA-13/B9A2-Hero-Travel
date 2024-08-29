@@ -1,0 +1,642 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+        font-family: "Roboto", sans-serif;
+}
+
+p {
+        font-size: 15px;
+        font-weight: 300;
+}
+
+li {
+        font-weight: 300;
+}
+
+h2 {
+        font-size: 35px;
+        font-weight: 700;
+        font-family: sans-serif;
+}
+
+/* Body Section */
+body {
+        max-width: 1140px;
+        margin: 0 auto;
+}
+
+.unic-words {
+        color: orangered;
+}
+
+/* Nav Section */
+
+.nav-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+}
+
+.nav-container h2 {
+        font-size: 30px;
+}
+
+.nav-container img {
+        width: 50px;
+        padding-top: 20px;
+        padding-right: 10px;
+}
+
+.nav-container-title {
+        display: flex;
+}
+
+.nav-container ul {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        margin-top: 35px;
+}
+
+/* Primary Button */
+.btn-primary {
+        border: none;
+        border-radius: 5px;
+        background-color: orangered;
+        color: white;
+        padding: 5px 15px;
+        font-size: 15px;
+}
+
+/* Heading Section */
+.heading-container {
+        background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+        color: white;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 70px;
+        border-radius: 10px;
+}
+
+.heading-container h1 {
+        font-size: 70px;
+}
+
+.from {
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 70%;
+        justify-content: space-between;
+        margin: 0 auto;
+        border-radius: 8px;
+
+
+}
+
+.from img {
+        width: 15px;
+        color: aliceblue;
+        margin-top: 0;
+}
+
+input {}
+
+
+.box-input {
+        padding: auto;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px 12px;
+
+}
+
+/* Main Section */
+
+/* Popular Tour Section */
+
+
+.popular-container {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        margin-top: 60px;
+        height: 400px;
+
+}
+
+.popular-container img {
+        width: 550px;
+        height: 400px;
+}
+
+
+/* Chose Your Destination Section */
+.destination-container-title {
+        text-align: center;
+        margin-top: 100px;
+
+}
+
+.destination-sub-container-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 30px;
+
+}
+
+.destination-sub-container-1 img {
+        width: 100%;
+        height: 250px;
+
+}
+
+.destination-sub-container-2 {
+        display: grid;
+        grid-template-columns: 30% 40% auto;
+        gap: 20px;
+        margin-top: 20px;
+
+}
+
+.destination-sub-container-2 img {
+        width: 100%;
+        height: 250px;
+}
+
+.destination-sub-container-3 {
+        display: grid;
+        grid-template-columns: 40% auto;
+        gap: 20px;
+        margin-top: 20px;
+
+}
+
+.destination-sub-container-3 img {
+        width: 100%;
+        height: 250px;
+}
+
+/* Text on the Images */
+.destination-img-1,
+.destination-img-2,
+.destination-img-3,
+.destination-img-4,
+.destination-img-5,
+.destination-img-6,
+.destination-img-7 {
+        position: relative;
+        text-align: center;
+        color: white;
+}
+
+.malvives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+}
+
+/* why choose Us container */
+.choose-container-title {
+        align-items: center;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 30px;
+}
+
+
+.choose-sub-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+}
+
+.choose-sub-container-title-1 {
+        border-radius: 10px;
+        background-color: rgb(246, 237, 248);
+        padding: 20px;
+}
+
+.choose-sub-container-title-2 {
+        background-color: rgb(242, 245, 236);
+        padding: 20px;
+        border-radius: 10px;
+}
+
+.choose-sub-container-title-3 {
+        background-color: rgb(248, 240, 237);
+        padding: 20px;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 46%;
+        margin: auto;
+        margin-top: 20px;
+}
+
+/* Deals & Discounts */
+.discount-container {
+        margin: 0 auto;
+}
+
+.discount-container img {
+        width: 100%;
+        height: 350px;
+}
+
+.discount-container-title {
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+}
+
+.discount-sub-container-1,
+.discount-sub-container-2,
+.discount-sub-container-3 {
+        position: relative;
+        margin-bottom: 30px;
+
+}
+
+.discount-sub-container-title-1,
+.discount-sub-container-title-3 {
+        position: absolute;
+        right: 2%;
+        top: 7%;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        width: 45%;
+
+}
+
+.discount-sub-container-title-2 {
+        position: absolute;
+        left: 2%;
+        top: 7%;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        width: 45%;
+}
+
+.discount-icon {
+        font-weight: 400;
+        font-size: 15px;
+}
+
+span {
+        color: orange;
+        margin-left: 20px;
+}
+
+strong {
+        color: orangered;
+}
+
+.discount-container button {
+        margin-top: 10px;
+        height: 35px;
+}
+
+.discount-2nd-btn {
+        text-align: center;
+}
+
+
+/* A Simple Perfect Place To Get Lost  section*/
+
+/* S simple Perfect Place section    Part-1 */
+.simple-place-container {
+        margin-top: 70px;
+}
+
+.simple-place-container-title {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+}
+
+.simple-place-sub-container-1 img {
+        width: 100%;
+        height: 320px;
+}
+
+.simple-perfect-img {
+        position: relative;
+}
+
+.simple-perfect-img-title {
+        position: absolute;
+        color: white;
+        left: 25%;
+        top: 30%;
+        text-align: center;
+        font-size: 25px;
+}
+
+
+/* simple Perfect place Section part-2 */
+
+.simple-place-container-title-2 {
+        display: grid;
+        grid-template-columns: 500px auto;
+        margin-top: 50px;
+}
+
+.simple-place-container-title-2 img {
+        width: 100%;
+        height: 320px;
+}
+
+.simple-place-sub-container-1 button {
+        margin-top: 20px;
+        padding: 10px 40px;
+}
+
+.from-title {
+        border-bottom: 1px solid gray;
+}
+
+.from-title h3 {
+        font-size: 30px;
+        margin-top: 0;
+}
+
+.form-1 {
+        border: 2px solid orange;
+        border-radius: 10px;
+        padding: 30px;
+        align-items: center;
+        width: 80%;
+
+}
+
+.form-1 input {
+        margin-top: 20px;
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+}
+
+.form-1 input[type=text],
+input[type=email] {
+        background-color: rgb(250, 247, 247);
+}
+
+/* Travels. com up to save */
+.save-up {
+        position: relative;
+
+}
+
+.travel-site {
+        position: absolute;
+        left: 30%;
+        top: 65%;
+        background-color: orangered;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 50px;
+        text-align: center;
+}
+
+.travel-site p {
+        font-size: 20px;
+        margin: 2px;
+}
+
+.travel-site h4 {
+        font-size: 35px;
+        margin: 2px;
+}
+
+
+/* footer Section */
+footer {
+        margin-top: 70px;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(245, 247, 245);
+}
+
+.footer-title {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+}
+
+.footer-title img {
+        margin-top: 25px;
+        margin-right: 10px;
+}
+
+.footer-icon {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        border-bottom: 1px solid gray;
+}
+
+.footer-icon img {
+        width: 30px;
+        color: black;
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Layout */
+/* Small Devices */
+
+@media screen and (max-width:576px) {
+/* Body Section */
+        body{
+                max-width: 550px;
+                margin: 0 auto;
+        }
+       /* nav bar section */
+        .nav-container ul {
+                display: none;
+        }
+
+        .nav-container h2::after {
+                content: "\2630";
+                cursor: pointer;
+                font-size: 30px;
+                font-weight: 600;
+                padding-left: 200px;
+                padding-top: 2px;
+        }
+        .nav-container h2{
+                overflow: 0;
+        }
+/*Heading Section */
+.heading-container{
+        padding: 30px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+}
+.heading-container h1{
+        font-size: 35px;       
+}
+/* heading form */
+.from{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+width: 50%;
+
+}
+/* Popular Section */
+.popular-container{
+        flex-direction: column;
+        margin: 0 auto;
+}
+/* destination section */
+
+.destination-container-title{
+        margin-top: 550px;
+}
+
+.destination-sub-container-1{
+        grid-template-columns: repeat(1, 2fr);
+}
+
+.destination-sub-container-2{
+        grid-template-columns: repeat(1, 3fr);
+}
+.destination-sub-container-3{
+grid-template-columns: repeat(1, 2fr);
+}
+
+
+/* Why Choose Us section */
+
+.choose-sub-container{
+        grid-template-columns: repeat(1, auto);
+}
+.choose-sub-container-title-3{
+        width: auto;
+}
+/* Discount And Deals Section */
+.discount-icon{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+}
+.discount-icon h3{
+        margin-top: 0;
+        margin-bottom: 0;
+        
+}
+
+/* Simple perfect Place  Section */
+.simple-place-container-title{
+        grid-template-columns: repeat(1, 2fr);
+       
+}
+.simple-place-container-title-2{
+        grid-template-columns: repeat(1, 2fr);
+        gap: 20px;
+             
+}
+
+.form-1{
+        margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {}
